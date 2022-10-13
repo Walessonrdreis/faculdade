@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">aula3</string>
+    <string name="to">Para</string>
+    <string name="subject">subject</string>
+    <string name="message">Mensagem</string>
+    <string name="send">Enviar</string>
+</resources>
