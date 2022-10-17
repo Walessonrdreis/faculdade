@@ -9,6 +9,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity2 extends AppCompatActivity {
+
     @Override
     protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,7 +17,8 @@ public class MainActivity2 extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
         String value1 = extras.getString("Value1");
         String value2 = extras.getString("Value2");
-        Toast.makeText(getApplicationContext(),"Values are:\n Primeiro Valor: "+ value1 + "\n Segundo Valor: "+ value2, Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"Values are:\n Primeiro Valor: "+ value1 +
+                "\n Segundo Valor: "+ value2, Toast.LENGTH_LONG).show();
     }
 
     public void callFirstActivity(View view){
